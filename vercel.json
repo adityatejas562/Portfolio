@@ -1,8 +1,12 @@
 {
-  "build": {
-    "installCommand": "npm install --force",
-    "env": {
-      "NODE_ENV": "production"
+  "version": 2,
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
     }
-  }
+  ]
 }
