@@ -3,7 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+<<<<<<< HEAD
   
+=======
+  "homepage":".",
+>>>>>>> 50de4b2174c4277713a75e5b100ec9bf9a2a61ca
   "scripts": {
     "dev": "vite",
     "build": "vite build",
